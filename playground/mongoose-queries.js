@@ -41,4 +41,6 @@ User.findById(userId)
     }
     console.log('User by ID', user);
   })
-  .catch(e => console.log(e));
+  .catch(e => {
+    console.log(e);
+  });
